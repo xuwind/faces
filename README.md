@@ -1,2 +1,3 @@
 # faces
 Andriod project to detect all faces in photo gallery
+It is a complete Android project, which goes thr all your photos in your smartphone, and put all faces in your picture together and group them by datetime, you can use the face to open the original picture...
