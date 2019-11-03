@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="phone0" />
+  <item type="id" name="phone1" />
+  <item type="id" name="phone2" />
+  <item type="id" name="phone3" />
+  <item type="id" name="phone4" />
+  <item type="id" name="SMS0" />
+  <item type="id" name="SMS1" />
+  <item type="id" name="SMS2" />
+  <item type="id" name="SMS3" />
+  <item type="id" name="SMS4" />  
+  <item type="id" name="email0" />
+  <item type="id" name="email1" />
+  <item type="id" name="email2" />
+  <item type="id" name="email3" />
+  <item type="id" name="email4" />
+  <item type="id" name="phoneCall" />
+  <item type="id" name="sendSMS" />
+  <item type="id" name="sendEmail" />
+  <item type="id" name="open" />
+  <item type="id" name="delete" />
+  <item type="id" name="addContact" />
+  <item type="id" name="openContact" />
+  <item type="id" name="QRCode" />
+  
+</resources>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Faces!</string>
+    <string name="app_name">Faces</string>
+    <string name="refresh">refresh</string>
+    <string name="clear">delete all faces</string>
+    <string name="delete">delete selected face</string>
+    <string name="large">use original size for searcing</string>
+    <string name="middle">resize to 2MP for searching</string>
+    <string name="small">resize to 0.5MP for searching</string>
+    <string name="setting">setting</string>
+    <string name="start">start searching</string>
+    <string name="stop">stop searching</string>
+    <string name="action">action</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="confirmmessage">Are you sure to exit <b>Faces</b>?</string>
+    <string name="dialogTitleExit">Confirm exit...</string>
+    <string name="dialogTitle">Faces App dialog...</string>
+    <string name="stopRun">Are you sure to stop searching?</string>
+    <string name="dialogClear">All faces will be removed, are you sure?</string>
+    <string name="dialogDelete">Are you sure to remove the face you just viewed?</string>
+    <string name="camera">camera</string>
+    <string name="open">open image</string>
+    <string name="dateTime">date:  </string>
+    <string name="stopString">searching stopped!</string>
+    <string name="noThread"><b>searching process</b> not started yet!</string>
+    <string name="inPorcess">searching in process...</string>
+    <string name="startRun">please be patient, <b>Faces</b> is searching...</string>
+    <string name="addContact">set as contact photo</string>
+    <string name="threadStart">the scanning already started...</string>
+    <string name="phoneCall">call</string>
+    <string name="sendSMS">send SMS</string>
+    <string name="sendEmail">send email</string>
+    <string name="smsButton">send</string>
+    <string name="subject">subject</string>
+    <string name="bodyTItle">body</string>
+    <string name="toStr">to</string>
+    <string name="lblSMS">SMS Message</string>
+    <string name="viewOption">view option</string>
+    <string name="viewFaces">show all faces</string>
+    <string name="viewContacts">show faces with contact</string>
+    <string name="finishSMS">SMS has been sent out...</string>    
+    <string name="searchContact">add photo from contacts</string>
+    <string name="playContact">3D contacts chain</string>
+    <string name="noContact">No contact photo in the Database!</string>
+    <string name="openContact">go to contact</string>
+    <string name="QRCode">contact QR card</string>
+    <string name="QRRead">scan QR contact</string>
+    <string name="contactAdded">contact has been added!</string>
+    <string name="contactNotAdded">add contact failed!</string>
+    <string name="installTitle">Install Barcode Scanner?</string>
+    <string name="installMessage">This application requires Barcode Scanner. Would you like to install it?</string>    
+	<string name="noMarkt">Android Market not installed, can\'t install Barcode Scanner!</string>
+	<string name="cameraFolder">search gallery images</string>
+	<string name="selectFolder">select a folder</string>
+	<string name="searchOption">search...</string>
+	<string name="choosedirTitle">select folder to search for</string>
+	<string name="endPage">Last face has been reached</string>
+	<string name="startPage">First face has been reached</string>
+	<string name="tvPrevious">previous</string>
+	<string name="tvNext">next</string>
+    <string name="service_started">Scanning photo service started</string> 
+    <string name="service_label">Photo Scan Service</string> 
+	
+	
+ </resources>

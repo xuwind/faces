@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txtTo" android:text="@string/toStr"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="phone" android:id="@+id/txtPhone"></EditText>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/lblSMS" android:text="@string/lblSMS"></TextView>
+    <TableRow android:layout_width="match_parent" android:id="@+id/tableRow1" android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/txtSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="top|left"
+            android:inputType="textMultiLine" >
+</EditText>
+
+        <Button
+            android:id="@+id/btSendSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="DoSendSMS"
+            android:text="@string/smsButton" >
+</Button>
+    </TableRow>
+    
+</LinearLayout>

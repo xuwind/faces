@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	<item android:id="@+id/action" 
+		android:title="@string/action">
+		<menu>
+			<item android:id="@+id/start"              
+	    		android:title="@string/start" />    
+			<item android:id="@+id/stop"              
+	    		android:title="@string/stop" />
+   			<item android:id="@+id/clear" 
+				android:title="@string/clear" />
+		</menu>
+	</item>
+	 
+	<item android:id="@+id/camera" 
+		android:title="@string/camera">
+
+	</item>
+	
+			<item android:id="@+id/viewFace" 
+				android:title="@string/viewOption" >
+				<menu>
+		   <group android:checkableBehavior="single">   
+		    <item android:id="@+id/viewFaces"              
+		    android:title="@string/viewFaces" />        
+		    <item android:id="@+id/viewContacts"              
+		    android:title="@string/viewContacts" />        
+		    </group>
+		    </menu>
+			</item>
+			
+	<item android:id="@+id/searchOption" 
+		android:title="@string/searchOption" >
+						
+			<menu>
+		   <group android:checkableBehavior="single">   
+		    <item android:id="@+id/cameraFolder"              
+		    android:title="@string/cameraFolder" />    
+		    <item android:id="@+id/selectFolder"              
+		    android:title="@string/selectFolder" />        
+		    </group>
+	</menu>			 	
+	</item>
+	<!-- 
+	<item android:id="@+id/setting" 
+		android:title="@string/setting" >
+	
+	<menu>
+		   <group android:checkableBehavior="single">   
+		    <item android:id="@+id/large"              
+		    android:title="@string/large" />    
+		    <item android:id="@+id/middle"              
+		    android:title="@string/middle" />        
+		    <item android:id="@+id/small"              
+		    android:title="@string/small" />        
+		    </group>
+	</menu>
+	</item>
+	-->
+
+		<item android:id="@+id/QRRead" 
+		android:title="@string/QRRead" />
+
+	
+</menu>
